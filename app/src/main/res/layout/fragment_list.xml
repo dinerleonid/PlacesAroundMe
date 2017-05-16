@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.FragmentList"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:id="@+id/rl">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/search_main" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search_main"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"
+        android:id="@+id/list" >
+
+    </android.support.v7.widget.RecyclerView>
+
+    <ProgressBar
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/progress_wait" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:clickable="true"
+        app:fabSize="mini"
+        app:srcCompat="@drawable/cast_ic_stop_circle_filled_white"
+        android:layout_below="@+id/search_main"
+        android:id="@+id/fab"
+        app:backgroundTint="@android:color/holo_blue_dark"
+        app:elevation="5dp"
+        style="@style/Widget.Design.FloatingActionButton" />
+
+    <ImageView
+        app:srcCompat="@drawable/antena"
+        android:layout_alignBottom="@+id/fab"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/imageAntena"
+        android:layout_height="40dp"
+        android:layout_width="40dp" />
+
+    <ImageView
+        app:srcCompat="@drawable/star"
+        android:id="@+id/imageStar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/imageAntena"
+        android:layout_toLeftOf="@+id/imageAntena"
+        android:layout_toStartOf="@+id/imageAntena"
+        android:layout_marginRight="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_below="@+id/search_main" />
+
+    <ImageView
+        app:srcCompat="@drawable/mylocation"
+        android:id="@+id/imageMyLoc"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/search_main"
+        android:layout_toRightOf="@+id/fab"
+        android:layout_toEndOf="@+id/fab"
+        android:background="@android:color/transparent" />
+
+</RelativeLayout>

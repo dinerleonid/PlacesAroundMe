@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:title="@string/measurement_units"
+        android:entries="@array/measurement_entries"
+        android:summary="@string/units"
+        android:entryValues="@array/measurement_values"
+        android:key="measure_key"
+        android:defaultValue="Kilometer"
+        />
+
+    <ListPreference
+        android:title="@string/radius_selector"
+        android:entries="@array/radius_entries"
+        android:summary="@string/radius_selection"
+        android:entryValues="@array/radius_values"
+        android:key="radius_key"
+        android:defaultValue="0.5"/>
+    <Preference
+        android:title="Delete all favorites"
+        android:key="favorites_key"
+        />
+
+</PreferenceScreen>

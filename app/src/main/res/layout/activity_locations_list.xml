@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textTitle" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:id="@+id/textAddress"
+            android:layout_width="200dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="10dp"
+        app:srcCompat="@drawable/cast_abc_scrubber_control_off_mtrl_alpha"
+        android:id="@+id/imageView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_height="10dp"
+         />
+
+    <Button
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/btn_status"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_height="4dp"
+        android:layout_width="4dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <ImageView
+        app:srcCompat="@drawable/cast_mini_controller_progress_drawable"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/imageView"
+        android:layout_toStartOf="@+id/imageView"
+        android:layout_marginRight="22dp"
+        android:layout_marginEnd="22dp"
+        android:id="@+id/placePic"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+
+</RelativeLayout>

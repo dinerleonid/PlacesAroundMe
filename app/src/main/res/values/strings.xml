@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Locum</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="settings">Settings</string>
+    <string name="exit_app">Exit Application</string>
+    <string name="measurement_units">Measurement Units</string>
+    <string name="units">Select measurement units</string>
+    <string name="radius_selector">Select a search radius</string>
+    <string name="radius_selection">You can select a radius from a givenn list of values</string>
+
+
+
+    <string name="km">Km.</string>
+    <string name="mi">Mi.</string>
+
+    <string-array name="measurement_entries">
+        <item>@string/km</item>
+        <item>@string/mi</item>
+    </string-array>
+
+    <string-array name="measurement_values">
+        <item>1</item>
+        <item>1.6</item>
+    </string-array>
+
+
+    <string name="half_km">0.5</string>
+    <string name="one_km">1</string>
+    <string name="onehalf_km">1.5</string>
+    <string name="two_km">2</string>
+    <string name="km_from_you">" km. away from you"</string>
+    <string name="miles_from_you">" mi. away from you"</string>
+    <string name="recommend_place">I recommend on this establishment</string>
+    <string name="place_awsome">"This place is awsome "</string>
+    <string name="plase_address_share">"its address is "</string>
+    <string name="share_with">Share location with</string>
+    <string name="sure_to_exit">Are you sure you want to exit?</string>
+    <string name="quit_confitmation_title">Quit confirmation</string>
+    <string name="quit_confirm_yes">Yes</string>
+    <string name="quit_confirm_yno">No</string>
+    <string name="usb_charging">USB Charging</string>
+    <string name="ac_charging">AC Charging</string>
+    <string name="no_location_found">No results found</string>
+    <string name="kilometers_fab">Kilometers</string>
+    <string name="miles_fab">Miles</string>
+    <string name="enter_search_radius_fab">"Enter a search radius in "</string>
+    <string name="ok_fab">OK</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="add_to_favorites">" added to favorites"</string>
+    <string name="exists_in_favorites">" already exists in favorites"</string>
+    <string name="kilometers_in_settings">" Kilometers"</string>
+    <string name="miles_in_settings">Miles</string>
+    <string name="chosen_radius_in_settings">"Chosen radius - "</string>
+    <string name="chosen_radius_in_summary">"Chosen radius - "</string>
+    <string name="chosen_radius_in_summary2">"Chosen radius - "</string>
+    <string name="chosen_radius_in_summary3">"Chosen radius - "</string>
+    <string name="search_will_be_in_radius">"Search will be in a radius "</string>
+    <string name="sure_delete_favorite_places">Are you sure you want to delete your favorite places?</string>
+    <string name="delete_favorites_confirm">Delete confirmation</string>
+    <string name="delete_favorites_yes">Yes</string>
+    <string name="delete_favorites_no">No</string>
+
+    <string-array name="radius_entries">
+        <item>@string/half_km</item>
+        <item>@string/one_km</item>
+        <item>@string/onehalf_km</item>
+        <item>@string/two_km</item>
+    </string-array>
+
+    <string-array name="radius_values">
+        <item>0.5</item>
+        <item>1</item>
+        <item>1.5</item>
+        <item>2</item>
+
+    </string-array>
+
+</resources>
